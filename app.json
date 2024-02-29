@@ -14,8 +14,18 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "scheme": ["wx4351cdd3d762dfbf"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.woohelps.overseas-newlife",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "weixin",
+          "weixinULAPI",
+          "weixinURLParamsAPI"
+        ]
+      },
+      "associatedDomains": ["applinks:app.woohelps.com"]
     },
     "android": {
       "adaptiveIcon": {
