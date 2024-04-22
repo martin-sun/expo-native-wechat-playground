@@ -11,12 +11,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "scheme": [
-      "wx4351cdd3d762dfbf"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "scheme": ["wx4351cdd3d762dfbf"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.hectorton.expo-playground",
@@ -27,9 +23,7 @@
           "weixinURLParamsAPI"
         ]
       },
-      "associatedDomains": [
-        "applinks:app.woohelps.com"
-      ]
+      "associatedDomains": ["applinks:app.woohelps.com/expo-playground"]
     },
     "android": {
       "adaptiveIcon": {
