@@ -14,10 +14,12 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "scheme": ["wx4351cdd3d762dfbf"],
+    "scheme": [
+      "wx4351cdd3d762dfbf"
+    ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.woohelps.overseas-newlife",
+      "bundleIdentifier": "com.hectorton.expo-playground",
       "infoPlist": {
         "LSApplicationQueriesSchemes": [
           "weixin",
@@ -25,7 +27,9 @@
           "weixinURLParamsAPI"
         ]
       },
-      "associatedDomains": ["applinks:app.woohelps.com"]
+      "associatedDomains": [
+        "applinks:app.woohelps.com"
+      ]
     },
     "android": {
       "adaptiveIcon": {
@@ -35,6 +39,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5348297a-2f5a-46ea-b6c4-8e040df8e383"
+      }
     }
   }
 }
