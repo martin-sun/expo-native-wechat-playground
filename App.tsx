@@ -5,7 +5,7 @@ import {
   registerApp,
   sendAuthRequest,
   shareWebpage,
-} from "expo-native-wechat";
+} from "native-wechat";
 import { useEffect, useState } from "react";
 import React from "react";
 
@@ -16,7 +16,7 @@ export default function App() {
     registerApp({
       appid: "wx4351cdd3d762dfbf",
       log: true,
-      universalLink: "https://app.woohelps.com/",
+      universalLink: "https://app.woohelps.com",
     });
   };
 

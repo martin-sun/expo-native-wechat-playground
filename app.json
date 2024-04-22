@@ -23,7 +23,7 @@
           "weixinURLParamsAPI"
         ]
       },
-      "associatedDomains": ["applinks:app.woohelps.com/expo-playground"]
+      "associatedDomains": ["applinks:app.woohelps.com"]
     },
     "android": {
       "adaptiveIcon": {
