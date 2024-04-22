@@ -11,8 +11,8 @@
   "dependencies": {
     "@types/react": "~18.2.45",
     "expo": "~50.0.8",
+    "expo-native-wechat": "github:Hector-Chong/expo-native-wechat",
     "expo-status-bar": "~1.11.1",
-    "native-wechat": "github:martin-sun/native-wechat#feat/expo-module",
     "react": "18.2.0",
     "react-native": "0.73.4",
     "typescript": "^5.3.0"
