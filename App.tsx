@@ -5,20 +5,12 @@ import {
   registerApp,
   sendAuthRequest,
   shareWebpage,
-} from "native-wechat";
+} from "expo-native-wechat";
 import { useEffect, useState } from "react";
 import React from "react";
 
 export default function App() {
   const [text, setText] = useState("");
-
-  const register = async () => {
-    registerApp({
-      appid: "wx4351cdd3d762dfbf",
-      log: true,
-      universalLink: "https://app.woohelps.com",
-    });
-  };
 
   const onAuth = async () => {
     const val = await sendAuthRequest({ scope: "snsapi_userinfo" });
@@ -37,7 +29,11 @@ export default function App() {
   };
 
   useEffect(() => {
-    register();
+    registerApp({
+      appid: "wx4351cdd3d762dfbf",
+      log: true,
+      universalLink: "https://app.woohelps.com",
+    });
   }, []);
 
   return (
